@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #232323;
+  color: white;
+}
+
+h1 {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+}
+
+#stripe {
+  background-color: steelblue;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: steelblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #447dce;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 100%;
+  padding-bottom: 100%;
+  background: #232323;
+  border: 1px solid #e0e0e0;
+}
+
+#colorDisplay {
+  font-size: 2rem;
+}

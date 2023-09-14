@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>El Increible Color Game</title>
+</head>
+<body>
+    <h1>El Increíble Color Game</h1>
+    <div id="stripe">
+        <button id="reset">Nuevos colores</button>
+        <span id="message"></span>
+        <button class="mode selected">Fácil</button>
+        <button class="mode">Difícil</button>
+    </div>
+    <div id="container">
+        <!-- Ahora solo tres cuadros para el modo fácil -->
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <!-- Los otros tres cuadros para el modo difícil -->
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <span id="colorDisplay"></span>
+    <script src="script.js"></script>
+</body>
+</html>
